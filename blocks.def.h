@@ -3,7 +3,8 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
     {"", "capacity", 60, 0},
     {"", "connection_status", 30, 0},
-	{"󱑆 ", "date '+%b %d (%a) %I:%M%p'",					5,		0},
+	{"󱑆 ", "date '+%b %d (%a) %I:%M%p'", 5, 0},
+    {" ", "", 60, 0}
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
